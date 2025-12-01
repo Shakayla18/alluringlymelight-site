@@ -1,1 +1,200 @@
-<html><body><h1>Home</h1></body></html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Alluringlymelight – Sha’Kayla Romana Williams | Model Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500&family=Great+Vibes&display=swap" rel="stylesheet">
+
+  <!-- Main stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- SITE HEADER -->
+  <header class="site-header">
+    <div class="site-brand">
+      <div class="brand-mark">A</div>
+      <div class="brand-text">
+        <div class="brand-name">Alluringlymelight</div>
+        <div class="brand-sub">Sha’Kayla Romana Williams</div>
+      </div>
+    </div>
+    <nav class="main-nav">
+      <a href="index.html" class="active">Home</a>
+      <a href="about.html">About</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="compcard.html">Comp Card</a>
+      <a href="contact.html">Book Me</a>
+    </nav>
+  </header>
+
+  <!-- HERO SECTION -->
+  <main>
+    <section class="hero">
+      <div class="hero-inner">
+        <p class="hero-label">Boston · Catalog · Editorial · Magazine</p>
+        <h1 class="hero-title">Sha’Kayla Romana Williams</h1>
+        <p class="hero-tagline">A modern, editorial-ready presence with warm elegance and quiet strength.</p>
+
+        <div class="hero-actions">
+          <a href="portfolio.html" class="btn btn-primary">View Portfolio</a>
+          <a href="contact.html" class="btn btn-outline">Book Alluringlymelight</a>
+        </div>
+
+        <div class="hero-note">
+          Available for catalog, editorial, magazine and commercial bookings.
+        </div>
+      </div>
+    </section>
+
+    <!-- STATS / MEASUREMENTS -->
+    <section class="section section-stats">
+      <div class="section-inner">
+        <div class="section-heading">
+          <h2>Model Profile</h2>
+          <p>Clean, professional visuals designed for agencies, brands and casting directors.</p>
+        </div>
+        <div class="stats-grid">
+          <div class="stat-block">
+            <h3>Measurements</h3>
+            <ul>
+              <li><span>Height</span> <strong>5'10½"</strong></li>
+              <li><span>Chest</span> <strong>34"</strong></li>
+              <li><span>Waist</span> <strong>32"</strong></li>
+              <li><span>Hips</span> <strong>32"</strong></li>
+            </ul>
+          </div>
+          <div class="stat-block">
+            <h3>Features</h3>
+            <ul>
+              <li><span>Eyes</span> <strong>Brown</strong></li>
+              <li><span>Hair</span> <strong>Brown</strong></li>
+              <li><span>Based</span> <strong>Boston, MA</strong></li>
+              <li><span>Travel</span> <strong>Available for confirmed bookings</strong></li>
+            </ul>
+          </div>
+          <div class="stat-block">
+            <h3>Focus</h3>
+            <ul>
+              <li>Catalog & E-commerce</li>
+              <li>Editorial & Magazine</li>
+              <li>Commercial & Beauty</li>
+              <li>Lookbooks & Campaigns</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURED / ABOUT SNAPSHOT -->
+    <section class="section section-split">
+      <div class="section-inner split">
+        <div class="split-text">
+          <h2>Presence & Style</h2>
+          <p>
+            Alluringlymelight is a quiet luxury presence — controlled, graceful and adaptable.
+            Sha’Kayla brings a calm, focused energy to set while remaining open to creative
+            direction and collaborative work with photographers, stylists and clients.
+          </p>
+          <p>
+            Her look translates naturally across catalog, editorial and commercial spaces,
+            with an emphasis on clean lines, soft strength and expressive eyes.
+          </p>
+          <div class="signature-block">
+            <span class="signature-label">Signed,</span>
+            <span class="signature-text">Alluringlymelight</span>
+          </div>
+        </div>
+        <div class="split-media">
+          <!-- Comp card preview (replace image path with your actual comp card if different) -->
+          <div class="compcard-preview">
+            <img src="assets/compcard.jpg" alt="Sha’Kayla Romana Williams Comp Card" />
+          </div>
+          <a href="compcard.html" class="btn btn-secondary full-width">View Full Comp Card</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- PORTFOLIO PREVIEW -->
+    <section class="section section-preview">
+      <div class="section-inner">
+        <div class="section-heading">
+          <h2>Selected Looks</h2>
+          <p>A curated preview of work. Full gallery available in the Portfolio section.</p>
+        </div>
+        <div class="preview-grid">
+          <div class="preview-card">
+            <div class="preview-thumb">Editorial</div>
+            <p>Soft, cinematic compositions with focus on expression and presence.</p>
+          </div>
+          <div class="preview-card">
+            <div class="preview-thumb">Catalog</div>
+            <p>Clean, product-forward posing with adaptable looks for brand identity.</p>
+          </div>
+          <div class="preview-card">
+            <div class="preview-thumb">Beauty</div>
+            <p>Close-up work emphasizing skin, eyes and subtle emotion.</p>
+          </div>
+        </div>
+        <div class="center-row">
+          <a href="portfolio.html" class="btn btn-outline">Open Full Portfolio</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- BOOKING SECTION -->
+    <section class="section section-book">
+      <div class="section-inner">
+        <div class="section-heading center">
+          <h2>Booking & Contact</h2>
+          <p>For serious inquiries, agency submissions and confirmed projects.</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-block">
+            <h3>Bookings</h3>
+            <p>Primary booking email for all modeling inquiries:</p>
+            <div class="email-line">
+              <span class="email-label">Bookings</span>
+              <a href="mailto:alluringlymelight33@gmail.com">alluringlymelight33@gmail.com</a>
+            </div>
+          </div>
+          <div class="contact-block">
+            <h3>Business</h3>
+            <p>General business, collaborations and communication:</p>
+            <div class="email-line">
+              <span class="email-label">Business</span>
+              <a href="mailto:empressromana33@gmail.com">empressromana33@gmail.com</a>
+            </div>
+          </div>
+          <div class="contact-block">
+            <h3>Social</h3>
+            <p>TikTok presence & motion-focused expression:</p>
+            <div class="social-line">
+              <span class="email-label">TikTok</span>
+              <span>@alluringlymelight</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="center-row">
+          <a href="contact.html" class="btn btn-primary">Open Booking Page</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p>© 2025 Sha’Kayla Romana Williams · Alluringlymelight.</p>
+      <p class="footer-sub">Boston, MA · Available for travel on confirmed bookings.</p>
+    </div>
+  </footer>
+</body>
+</html>
